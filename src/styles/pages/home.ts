@@ -14,6 +14,7 @@ export const Product = styled('a', {
   padding: '0.25rem',
   position: 'relative',
   overflow: 'hidden',
+  cursor: 'pointer',
 
   display: 'flex',
   alignItems: 'center',
@@ -40,7 +41,8 @@ export const Product = styled('a', {
     transition: 'all 0.2s ease-in-out',
 
     strong: {
-      fontSize: '$lg'
+      fontSize: '$lg',
+      color: '$gray100'
     },
 
     span: {
